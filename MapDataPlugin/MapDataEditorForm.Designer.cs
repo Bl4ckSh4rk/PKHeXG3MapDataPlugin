@@ -109,6 +109,7 @@ public partial class MapDataEditorForm
         MinimizeBox = false;
         MinimumSize = new System.Drawing.Size(720, 430);
         Name = "MapDataEditorForm";
+        ShowIcon = false;
         SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
         StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
         Text = "Map Data Editor";

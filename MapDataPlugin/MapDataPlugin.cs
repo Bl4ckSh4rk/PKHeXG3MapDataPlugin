@@ -32,7 +32,7 @@ public sealed class MapDataPlugin : IPlugin
 
     private void AddPluginControl(ToolStripDropDownItem tools)
     {
-        ctrl = new(Name) { Text = "Location Data Editor", Visible = false };
+        ctrl = new(Name) { Text = "Map Data Editor", Visible = false };
         tools.DropDownItems.Add(ctrl);
         ctrl.Click += (s, e) => { _ = new MapDataEditorForm((SAV3)SaveFileEditor.SAV).ShowDialog(); };
     }
